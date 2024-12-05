@@ -135,8 +135,6 @@ const port = config.port;
 const tux = path.join(__dirname, 'logo.png');
 
 
-
-
 app.post('/print', (req, res) => {
     res.json(
         {status: 'success'}
